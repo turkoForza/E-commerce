@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="#">E-Shopping</a>
+        <div class="mid">
+            <ul>
+                <li>Home</li>
+                <li>Categories</li>
+                <li>Products</li>
+                <li>About</li>
+            </ul>
+    
+            <div class="input-group">
+                <input type="text" placeholder="Search Product">
+                <img src="images/loupe.png">
+            </div>
+        </div>
+        <div class="buttons">
+            <button>Login</button>
+            <button>Sign up</button>
+        </div>
+    </header>
+
+    <div class="shopping-cart">
+        <i class="fa-solid fa-angles-left"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span id="items-count">0</span>
+
+        <div id="cart-item-box">
+            <!-- <div class="cart-item">
+                <img class="item-img" src="https://cdn.lorem.space/images/shoes/.cache/640x480/irene-kredenets-dwKiHoqqxk8-unsplash.jpg">
+                <span class="item-title">Incredible Plastic Car
+                </span>
+                <span class="item-price">100$</span>
+                <input class="item-count" type="number" value="1">
+            </div> -->
+            
+        </div>
+
+        <div id="total">
+            <label for="amount">Total:</label>
+            <input type="text" id="total-amount" value="0" disabled>
+        </div>
+
+        <div id="cart-buttons">
+            <button id="clear">Clear all</button>
+            <button>Proceed to Checkout</button>
+        </div>
+
+    </div>
+
+    <main>
+        <div id="categories" class="main-container">
+            <marquee><h1>Categories</h1></marquee>
+
+            <div id="cat-box" class="card-container">
+                <!-- <div class="category-card">
+                    <img src="https://cdn.lorem.space/images/fashion/.cache/640x480/leon-ell-C8Q_zR8PDlA-unsplash.jpg">
+                    <div class="layer">Clothes</div>
+                </div> -->
+            </div>
+
+        </div>
+
+        <div id="products" class="main-container">
+            <marquee><h1>Products</h1></marquee>
+
+            <div id="pro-box" class="card-container">
+
+                <!-- <div class="product-card">
+                    <img src="https://cdn.lorem.space/images/furniture/.cache/640x480/phillip-goldsberry-fZuleEfeA1Q-unsplash.jpg">
+                    <h5 class="title">koltuk</h5>
+                    <div class="product-info">
+                        <span class="price">
+                            100$
+                        </span>
+                        <button class="add-to-cart">Add to cart</button>
+                    </div>
+                    
+                </div> -->
+
+            </div>
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
