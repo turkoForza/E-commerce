@@ -7,11 +7,11 @@
     Choose any product to add the basket, set their counts and total price will be calculated automatically.
 </p>
 
-<p>Please click <a href="#">here</a> to try online.</p>
+<p>Please click <a href="https://kaleidoscopic-seahorse-52bd49.netlify.app">here</a> to try online.</p>
 
 <h3>Preview</h3>
 
-<img src="images/screen.mp4" alt="">
+<img src="images/screen.gif" alt="">
 
 <h3>Used Techs</h3>
 
